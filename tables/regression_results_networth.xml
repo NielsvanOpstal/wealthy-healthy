@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Opstal, Niels van</Author>
+  <LastAuthor>UvA</LastAuthor>
+  <Created>2019-01-15T13:30:33Z</Created>
+  <LastSaved>2019-01-15T13:30:33Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders/>
+   <Font ss:FontName="Calibri"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s72">
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:AutoFitWidth="0" ss:Width="57.75" ss:Span="2"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">All observations</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell><Data ss:Type="String">same persons</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell><Data ss:Type="String">Same persons with fixed effects</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2007 - 2013</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2013 - 2017</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2007 - 2013</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2013 - 2017</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2007-2013</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2013-2017</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">VARIABLES</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">netWorth</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">netWorth</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">netWorth</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">netWorth</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">netWorth</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">netWorth</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">DID</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">-22,284.3976</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3,935.3058</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">-48,246.8426**</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">25,871.4509</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">-43,975***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">24,245**</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(14,351.1254)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(13,527.6009)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(20,639.8119)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(19,905.5431)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(15,888)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(9,486)</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">time</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3,533.7450</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">2,597.1789</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4,732.4651</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">-821.0623</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4,551</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5,274</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(9,902.1682)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(9,605.9329)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(15,015.2758)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(15,110.1962)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(11,331)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(7,131)</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">treated</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">249,872.3663***</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">227,587.9687***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">263,253.1713***</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">243,262.0850***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">154,356***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">142,737***</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(9,924.4048)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(10,237.9793)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(14,577.8626)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(13,963.4007)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(26,907)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(16,409)</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Constant</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">25,399.5137***</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">28,933.2587***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">25,004.1179**</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">37,327.6554***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">81,574***</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">92,654***</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(6,742.6159)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(7,162.1051)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(10,506.9940)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">(10,359.0286)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(14,969)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">(9,571)</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Observations</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3,458</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">3,864</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">1,540</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1,886</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">1,540</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">1,886</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">persons</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.048</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.127</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">R-squared</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.2442</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">0.2346</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0.2619</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">0.2628</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">770</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">943</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Standard errors in parentheses</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">*** p&lt;0.01, ** p&lt;0.05, * p&lt;0.1</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>16</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:ProtectedObjects>False</x:ProtectedObjects>
+   <x:ProtectedScenarios>False</x:ProtectedScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
