@@ -9,7 +9,7 @@
   <Author>Opstal, Niels van</Author>
   <LastAuthor>UvA</LastAuthor>
   <Created>2019-01-28T10:34:13Z</Created>
-  <LastSaved>2019-01-28T10:34:13Z</LastSaved>
+  <LastSaved>2019-01-30T15:46:25Z</LastSaved>
   <Version>14.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -73,81 +73,137 @@
    <Font ss:FontName="Calibri"/>
    <NumberFormat/>
   </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000001"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000001"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000001"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="17" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="17" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:AutoFitWidth="0" ss:Width="72"/>
    <Column ss:AutoFitWidth="0" ss:Width="57.75" ss:Span="1"/>
-   <Row ss:Index="2">
+   <Row ss:Height="13.5"/>
+   <Row ss:Height="25.5">
     <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">2007 - 2013</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">2013 - 2017</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">2007-2013</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">2013-2017</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:Height="26.25">
     <Cell ss:StyleID="s64"><Data ss:Type="String">VARIABLES</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">unemployed</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">unemployed</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">net income</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">net income</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
    </Row>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String">DID</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">0.0033</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0102</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">-1028</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1431</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0114)</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0126)</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">treated</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0009</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">0.0024</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0077)</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0093)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">-1065</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">-1193</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String">time</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">0.0150*</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0011</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2,964 ***</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-31.342400000000001</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0080)</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0092)</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-752</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-872</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">treated</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0009</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.0024</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">14,764 ***</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13,736 ***</Data></Cell>
    </Row>
    <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0077)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0093)</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-721</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-885</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
     <Cell ss:StyleID="s64"><Data ss:Type="String">Constant</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">0.0140***</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">0.0291***</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">13,641 ***</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">16,605 ***</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0054)</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0067)</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-505</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">-631</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
    </Row>
-   <Row>
+   <Row ss:Height="13.5">
     <Cell ss:StyleID="s64"><Data ss:Type="String">Observations</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">2,586</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">2,671</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2586</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2671</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:Height="13.5">
     <Cell ss:StyleID="s66"><Data ss:Type="String">R-squared</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">0.0034</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">0.0008</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0.22550000000000001</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0.1855</Data></Cell>
    </Row>
    <Row>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Standard errors in parentheses</Data></Cell>
@@ -161,8 +217,9 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>18</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+     <RangeSelection>R2C1:R17C5</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -87,54 +87,28 @@
    <NumberFormat/>
   </Style>
   <Style ss:ID="s71">
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Calibri"/>
-  </Style>
-  <Style ss:ID="s72">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Font ss:FontName="Calibri"/>
    <NumberFormat/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
   </Style>
   <Style ss:ID="s73">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Font ss:FontName="Calibri"/>
    <NumberFormat/>
   </Style>
   <Style ss:ID="s74">
-   <Font ss:FontName="Calibri"/>
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s78">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#00000A"/>
-  </Style>
-  <Style ss:ID="s85">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Calibri"/>
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s86">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Calibri"/>
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s87">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -143,13 +117,22 @@
    <Font ss:FontName="Calibri"/>
    <NumberFormat/>
   </Style>
-  <Style ss:ID="s88">
+  <Style ss:ID="s75">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Font ss:FontName="Calibri"/>
    <NumberFormat/>
+  </Style>
+  <Style ss:ID="s76">
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
@@ -313,7 +296,7 @@
     <Cell ss:StyleID="s66"><Data ss:Type="String">persons</Data></Cell>
     <Cell ss:StyleID="s67"/>
     <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">0.2670</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">0.2670</Data></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="String">0.2726</Data></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="String">703</Data></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="String">865</Data></Cell>
@@ -321,25 +304,25 @@
     <Cell ss:StyleID="s69"/>
    </Row>
    <Row>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">R-squared</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">0.2442</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">0.2346</Data></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">0.2619</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">0.2628</Data></Cell>
-    <Cell ss:StyleID="s86"><Data ss:Type="Number">1.8499999999999999E-2</Data></Cell>
-    <Cell ss:StyleID="s86"><Data ss:Type="Number">2.6800000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">R-squared</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">0.2442</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">0.2346</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">0.2619</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">0.2628</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1.8499999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2.6800000000000001E-2</Data></Cell>
     <Cell ss:Index="10" ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s69"/>
    </Row>
    <Row>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Standard errors in parentheses</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Standard errors in parentheses</Data></Cell>
     <Cell ss:Index="10" ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s69"/>
    </Row>
    <Row>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">*** p&lt;0.01, ** p&lt;0.05, * p&lt;0.1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">*** p&lt;0.01, ** p&lt;0.05, * p&lt;0.1</Data></Cell>
     <Cell ss:Index="10" ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s69"/>
@@ -365,8 +348,8 @@
     <Cell ss:StyleID="s69"/>
    </Row>
    <Row ss:Index="31">
-    <Cell ss:Index="17" ss:StyleID="s78"/>
-    <Cell ss:StyleID="s78"/>
+    <Cell ss:Index="17" ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -381,8 +364,7 @@
     <Pane>
      <Number>3</Number>
      <ActiveRow>17</ActiveRow>
-     <ActiveCol>6</ActiveCol>
-     <RangeSelection>R1C1:R18C7</RangeSelection>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
